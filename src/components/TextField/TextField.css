@@ -1,0 +1,26 @@
+
+.field-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.field-container label {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1.05em;
+}
+
+.button {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    padding: 2rem 2rem;
+    border: none;
+}
+
+.button::placeholder {
+    color: #A4A4A4;
+}
+
+/* .button:required {
+    border: 2px solid red ;
+} */

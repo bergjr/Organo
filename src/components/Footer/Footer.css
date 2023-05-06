@@ -1,0 +1,33 @@
+.footer {
+    width: 100vw;
+    height: auto;
+    background-color: #6278F7;
+    background-image: url("../../../public/assets/Group2.svg");
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: space; */
+    background-position: 45% 30%;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 5%;
+}
+
+.footer__container__redes-socias{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer__container__logo {
+    background: url("../../../public/assets/Logo.svg") no-repeat;
+    width: 166px;
+    height: 64px;
+}
+
+.footer__container__text {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 1.5em;
+}

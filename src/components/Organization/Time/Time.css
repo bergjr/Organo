@@ -1,0 +1,103 @@
+.time {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    padding: 2rem 0;
+    
+}
+
+.time h2 {
+    font-family: 'Prata';
+    position: relative;
+    padding-bottom: 0.6rem;
+}
+
+.time h2::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 43%;
+    width: 20px;
+}
+
+.time__cards {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding: 0 210px;
+}
+
+/* Programação */
+
+.time--programacao {
+    background: rgba(0, 200, 111, 0.15);
+}
+
+.time--programacao h2::before {
+    border-bottom: 4px solid #57C278;
+}
+
+/* Front-End */
+
+.time--front-end {
+    background: #E8FFFF
+}
+
+.time--front-end h2::before {
+    border-bottom: 4px solid #82CFFA;
+}
+
+/* Data Science */
+
+.time--datascience {
+    background: #E9FFE3;
+}
+
+.time--datascience h2::before {
+    border-bottom: 4px solid #A6D157;
+}
+
+/* Devops */
+
+.time--devops {
+    background: #FDE7E8;
+}
+
+.time--devops h2::before {
+    border-bottom: 4px solid #E06B69;
+}
+
+/* UX e Design */
+
+.time--ux {
+    background: #FAE9F5;
+}
+
+.time--ux h2::before {
+    border-bottom: 4px solid #DB6EBF;
+}
+
+/* Mobile*/
+
+.time--mobile {
+    background: #FFF5D9;
+}
+
+.time--mobile h2::before {
+    border-bottom: 4px solid #FFBA05;
+}
+
+/* Inovação e Gestão */
+
+.time--inovacao {
+    background: #FFEEDF;
+}
+
+.time--inovacao h2::before {
+    border-bottom: 4px solid #FF8A29;
+}
+
+
+
+

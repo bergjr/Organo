@@ -1,0 +1,64 @@
+
+.card {
+    display: flex;
+    font-family: 'Montserrat';
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    width: 262px;
+    height: 272px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card--programacao {
+    background: linear-gradient(to bottom ,  #57C278 0%, #57C278 30%, #FFFFFF 0%, #FFFFFF 70%);
+}
+
+.card--front-end {
+    background: linear-gradient(to bottom ,  #82CFFA 0%, #82CFFA 30%, #FFFFFF 0%, #FFFFFF 70%);
+}
+
+.card--datascience{
+    background: linear-gradient(to bottom ,  #A6D157 0%, #A6D157 30%, #FFFFFF 0%, #FFFFFF 70%);
+}
+
+.card--devops {
+    background: linear-gradient(to bottom ,  #E06B69 0%, #E06B69 30%, #FFFFFF 0%, #FFFFFF 70%);
+}
+
+.card--ux {
+    background: linear-gradient(to bottom ,  #DB6EBF 0%, #DB6EBF 30%, #FFFFFF 0%, #FFFFFF 70%);
+}
+
+.card--mobile {
+    background: linear-gradient(to bottom ,  #FFBA05 0%, #FFBA05 30%, #FFFFFF 0%, #FFFFFF 70%);
+}
+
+.card--inovacao {
+    background: linear-gradient(to bottom ,  #FF8A29 0%, #FF8A29 30%, #FFFFFF 0%, #FFFFFF 70%);
+}
+
+.card__img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    overflow: hidden; 
+}
+
+.card__img img{
+    min-width:120px;
+    max-width:none;
+    height:120px;
+    margin:0 -100%;
+}
+
+.card__name {
+    font-weight: 600;
+    color: #6278F7;
+}
+
+.card__position {
+    font-weight: 400;
+}
+

@@ -1,0 +1,25 @@
+.submit {
+    background: #6278F7;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 28px 29px;
+    border: none;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+
+.submit:hover {
+    color: #95FFD4;
+}
+
+.toggle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 240px;
+    background: url("../../../public/assets/Botao__add.png") no-repeat;
+    border: none;
+    cursor: pointer;
+}
