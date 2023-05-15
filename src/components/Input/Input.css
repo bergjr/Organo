@@ -1,0 +1,27 @@
+
+.field-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.field-container label {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1.05em;
+}
+
+.input-text {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    padding: 2rem 2rem;
+    border: none;
+}
+
+.input-text::placeholder {
+    color: #A4A4A4;
+}
+
+.input-color {
+    width: 100%;
+    height: 50px;
+}
