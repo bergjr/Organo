@@ -3,7 +3,12 @@
     flex-direction: column;
     width: 100vw;
     align-items: center;
+    justify-content: space-between;
     padding: 2rem 0;
+    background-image: url("/public/assets/Group2.svg");
+    background-repeat: repeat;
+    background-size: 70%;
+    
     
 }
 
@@ -34,9 +39,9 @@
     background: rgba(0, 200, 111, 0.15);
 }
 
-.time--programacao h2::before {
+/* .time--programacao h2::before {
     border-bottom: 4px solid #57C278;
-}
+} */
 
 /* Front-End */
 
@@ -44,9 +49,9 @@
     background: #E8FFFF
 }
 
-.time--front-end h2::before {
+/* .time--front-end h2::before {
     border-bottom: 4px solid #82CFFA;
-}
+} */
 
 /* Data Science */
 
@@ -54,9 +59,9 @@
     background: #E9FFE3;
 }
 
-.time--datascience h2::before {
+/* .time--datascience h2::before {
     border-bottom: 4px solid #A6D157;
-}
+} */
 
 /* Devops */
 
@@ -64,9 +69,9 @@
     background: #FDE7E8;
 }
 
-.time--devops h2::before {
+/* .time--devops h2::before {
     border-bottom: 4px solid #E06B69;
-}
+} */
 
 /* UX e Design */
 
@@ -74,9 +79,9 @@
     background: #FAE9F5;
 }
 
-.time--ux h2::before {
+/* .time--ux h2::before {
     border-bottom: 4px solid #DB6EBF;
-}
+} */
 
 /* Mobile*/
 
@@ -84,9 +89,9 @@
     background: #FFF5D9;
 }
 
-.time--mobile h2::before {
+/* .time--mobile h2::before {
     border-bottom: 4px solid #FFBA05;
-}
+} */
 
 /* Inovação e Gestão */
 
@@ -94,10 +99,18 @@
     background: #FFEEDF;
 }
 
-.time--inovacao h2::before {
+/* .time--inovacao h2::before {
     border-bottom: 4px solid #FF8A29;
+} */
+
+/* Red */
+
+.time--red {
+    background-color: rgb(235, 130, 130);
 }
 
-
+/* .time--red h2::before {
+    border-bottom: 4px solid red;
+} */
 
 

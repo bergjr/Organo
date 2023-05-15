@@ -11,8 +11,15 @@
     text-align: center;
 }
 
+.card button {
+    align-self: flex-end;
+    border: none;
+    background-color: transparent;
+    
+}
+
 .card--programacao {
-    background: linear-gradient(to bottom ,  #57C278 0%, #57C278 30%, #FFFFFF 0%, #FFFFFF 70%);
+    background: linear-gradient(to bottom , #57C278 0%, #57C278 30%, #FFFFFF 0%, #FFFFFF 70%);
 }
 
 .card--front-end {
@@ -37,6 +44,12 @@
 
 .card--inovacao {
     background: linear-gradient(to bottom ,  #FF8A29 0%, #FF8A29 30%, #FFFFFF 0%, #FFFFFF 70%);
+}
+
+/* Colors */
+
+.card--red {
+    background: linear-gradient(to bottom ,  red 0%, red 30%, #FFFFFF 0%, #FFFFFF 70%);
 }
 
 .card__img{

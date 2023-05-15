@@ -1,0 +1,6 @@
+.flex-container {
+    display: flex;
+    gap: 2%;
+    margin: 0 50px;
+    justify-content: center;
+}
