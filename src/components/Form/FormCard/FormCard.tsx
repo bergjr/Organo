@@ -3,26 +3,23 @@ import Button from "../../Button";
 import Dropdown from "../../Dropdown/Dropdown";
 import Input from "../../Input/Input";
 import './FormCard.css';
+import { IEmployee} from "../../../shared/interfaces/IEmployee";
+import { ITime } from "../../../shared/interfaces/ITime";
 
+interface IFormCardProps {
+    onAddEmployee: (employee: IEmployee) => void
+    teams: ITime []
+}
 
-const FormCard = (props) => {
-    // const items = [{name: 'Selecione um time', class: ''},
-    //     {name:"Programação", class:"programacao"},
-    //     {name:"Front-end", class:"front-end"},
-    //     {name:"Data Science", class:"datascience"},
-    //     {name:"UX e Design", class:"ux"},
-    //     {name:"Devops", class:"devops"},
-    //     {name: "Mobile", class: "mobile"},
-    //     {name: "Inovação e Gestão", class: "inovacao"}
-    //     ];
+const FormCard = (props: IFormCardProps) => {
     
     const [nome, setNome] = useState('');
     const [cargo, setCargo] = useState('');
     const [imagem, setImagem] = useState('');
     const [time, setTime] = useState('');
+    const [date, setDate] = useState('')
 
-
-    const onSave = (event) => {
+    const onSave = (event: React.FormEvent<HTMLFormElement>) => {
        event.preventDefault();
        const employee = {
             id: Math.random().toString(), 
@@ -45,8 +42,9 @@ const FormCard = (props) => {
                 <Input valor={nome} inputType="text" className="input-text" onChange={(valor) => setNome(valor)} required={true} label="Nome" placeholder="Digite seu nome..."  />
                 <Input valor={cargo} inputType="text" className="input-text" onChange={(valor) => setCargo(valor)} required={true} label="Cargo" placeholder="Digite seu cargo.." />
                 <Input valor={imagem} inputType="text" className="input-text" onChange={(valor) => setImagem(valor)} required={true} label="Imagem" placeholder="Informe o endereço da imagem..." />
+                <Input valor={imagem} inputType="date" className="input-text" onChange={(valor) => setImagem(valor)} required={true} label="Data" placeholder="dd/mm/aaaa" />
                 <Dropdown valor={time} label="Time" onChange={(valor) => setTime(valor)} items={props.teams} />
-                <Button class="submit"> Criar card </Button>
+                <Button className="submit"> Criar card </Button>
             </form>    
         </Fragment>
     );

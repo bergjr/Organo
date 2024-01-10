@@ -1,7 +1,14 @@
 import './Dropdown.css';
+import { ITime
+ } from '../../shared/interfaces/ITime';
+interface DropdownProps {
+    items: ITime[]
+    label: string
+    onChange: (value: string) => void
+    valor: string  
+}
 
-
-const Dropdown = (props) => {
+const Dropdown = (props: DropdownProps) => {
     const items = props.items;
     return (
         <div className="dropdown-container">
